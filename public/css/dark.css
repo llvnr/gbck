@@ -9,4 +9,34 @@
     --shellauth-load-card-border-top: 1px solid #F1F0F9;
     --cadre-service-background-color: #1A1A1A;
     --cadre-service-color: white;
+    /* APP */
+    --shellgbck-labelprimaire-color: white;
+    --shellgbck-inputcolorprm-border: #1A1A1A;
+    --shellgbck-inputhexaprm-border: black;
+    --shellgbck-inputhexaprm-background: #1A1A1A;
+    --shellgbck-inputhexaprm-color: white;
+    --shellgbck-labelsecondaire-color: white;
+    --shellgbck-inputhexascd-border: black;
+    --shellgbck-inputhexascd-background: #1A1A1A;
+    --shellgbck-inputhexascd-color: white;
+    --shellgbck-labeltype-color: white;
+    --shellgbck-radioradiolabellinaire-color: white;
+    --shellgbck-radioradiolabelradial-color: white;
+    --shellgbck-labeldirection-color: white;
+    --shellgbck-selectdirection-border: black;
+    --shellgbck-selectdirection-background: #1A1A1A;
+    --shellgbck-selectdirection-color: white;
+    --shellgbck-labelcode-color: white;
+    --shellgbck-code-background: #1A1A1A;
+    --shellgbck-code-color: white;
+    --shellgbck-labelsize-color: white;
+    --shellgbck-labelwidth-color: white;
+    --shellgbck-inputwidth-border: black;
+    --shellgbck-inputwidth-background: #1A1A1A;
+    --shellgbck-inputwidth-color: white;
+    --shellgbck-labelheight-color: white;
+    --shellgbck-inputheight-border: black;
+    --shellgbck-inputheight-background: #1A1A1A;
+    --shellgbck-inputheight-color: white;
+    /* APP */
 }

@@ -12,7 +12,7 @@ html, body {
 }
 
 .ShellTop {
-    flex: 0.5;
+    flex: 1;
     background-color: var(--shell-top-background-color);
     color: var(--shell-top-color);
     display: flex;
@@ -141,3 +141,242 @@ html, body {
     padding-left: 1em;
     padding-bottom: 1em;
 }
+
+/* APP */
+
+.cadre__navigation {
+    min-height: 2em;
+    height: auto;
+    background-color: #e6e7ee;
+    color: black;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+.cadre__service_logo {
+    padding-top: 1em;
+}
+
+.navigation__application {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    margin:0;
+    list-style-type:none;
+}
+
+.navigation__application_element {
+    float: left;
+    margin-left: 10px;
+}
+
+.container__application-gbck {
+    padding: 0;
+    height: 91%;
+}
+
+.ShellGBCK {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ShellGBCK__left {
+    flex: 1;
+    padding-top: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    overflow-y: auto;
+}
+
+.ShellGBCK__right {
+    flex: 5;
+    background-color: cadetblue;
+}
+
+.ShellGBCK__left-labelprimaire {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-size: 1.2em;
+    color: var(--shellgbck-labelprimaire-color);
+}
+
+.ShellGBCK__left-inputcolorprm {
+    width: 102%;
+    height: 40px;
+    border: 2px solid var(--shellgbck-inputcolorprm-border);
+}
+
+.ShellGBCK__left-inputhexaprm {
+    height: 1.8em;
+    width: 98%;
+    border: 1px solid var(--shellgbck-inputhexaprm-border);
+    background-color: var(--shellgbck-inputhexaprm-background);
+    color: var(--shellgbck-inputhexaprm-color);
+}
+
+.ShellGBCK__left-randomprm {
+    background-color: #3D5A8D;
+    border: 1px solid #3D5A8D;
+    color: white;
+    height: 2.2em;
+    cursor: pointer;
+    width: 101%;
+}
+
+.ShellGBCK__left-labelsecondaire {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-size: 1.2em;
+    color: var(--shellgbck-labelsecondaire-color);
+}
+
+.ShellGBCK__left-inputcolorscd {
+    width: 102%;
+    height: 40px;
+    border: 2px solid #E5E5E5;
+}
+
+.ShellGBCK__left-inputhexascd {
+    height: 1.8em;
+    width: 98%;
+    border: 1px solid var(--shellgbck-inputhexascd-border);
+    background-color: var(--shellgbck-inputhexascd-background);
+    color: var(--shellgbck-inputhexascd-color);
+}
+
+.ShellGBCK__left-randomscd {
+    background-color: #3D5A8D;
+    border: 1px solid #3D5A8D;
+    color: white;
+    height: 2.2em;
+    cursor: pointer;
+    width: 101%;
+}
+
+.ShellGBCK__left-mixrandom {
+    width: 101%;
+    height: 2em;
+    background-color: #3D5A8D;
+    border: 1px solid #3D5A8D;
+    color: white;
+    cursor: pointer;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.ShellGBCK__left-labeltype {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-size: 1.2em;
+    color: var(--shellgbck-labeltype-color);
+}
+
+.ShellGBCK__left-radiolabellinaire {
+    color: var(--shellgbck-radioradiolabellinaire-color);
+}
+
+.ShellGBCK__left-radiolineaire {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-size: 1.2em;
+}
+
+.ShellGBCK__left-radiolabelradial {
+    color: var(--shellgbck-radioradiolabelradial-color);
+}
+
+
+.ShellGBCK__left-radioradial {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-size: 1.2em;
+}
+
+.ShellGBCK__left-labeldirection {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-size: 1.2em;
+    color: var(--shellgbck-labeldirection-color);
+}
+
+.ShellGBCK__left-selectdirection {
+    width: 95%;
+    height: 2em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    border: 1px solid var(--shellgbck-selectdirection-border);
+    background-color: var(--shellgbck-selectdirection-background);
+    color: var(--shellgbck-selectdirection-color);
+}
+
+.ShellGBCK__left-labelcode {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-size: 1.2em; 
+    color: var(--shellgbck-labelcode-color);
+}
+
+.ShellGBCK__left-btncopy {
+    background-color: #3D5A8D;
+    border: 1px solid #3D5A8D;
+    color: white;
+}
+
+.ShellGBCK__left-code {
+    background-color: var(--shellgbck-code-background);
+    color: var(--shellgbck-code-color);
+}
+
+.ShellGBCK__left-labelsize {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-size: 1.2em;
+    color: var(--shellgbck-labelsize-color);
+}
+
+.ShellGBCK__left-labelwidth {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-size: 1.2em;
+    color: var(--shellgbck-labelwidth-color);
+}
+
+.ShellGBCK__left-inputwidth {
+    width: 95%;
+    height: 2em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    border: 1px solid var(--shellgbck-inputwidth-border);
+    background-color: var(--shellgbck-inputwidth-background);
+    color: var(--shellgbck-inputwidth-color);
+}
+
+.ShellGBCK__left-labelheight {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-size: 1.2em;
+    color: var(--shellgbck-labelheight-color);
+}
+
+.ShellGBCK__left-inputheight {
+    width: 95%;
+    height: 2em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    border: 1px solid var(--shellgbck-inputheight-border);
+    background-color: var(--shellgbck-inputheight-background);
+    color: var(--shellgbck-inputheight-color); 
+}
+
+.ShellGBCK__left-downloadpngbtn {
+    width: 97%;
+    height: 2em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em; 
+    background-color: #3D5A8D;
+    border: 1px solid #3D5A8D;
+    color: white;
+}
+
+/* APP */

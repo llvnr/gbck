@@ -16,4 +16,30 @@
         display: none;
     }
 
+    .container__application-gbck {
+        padding: 0;
+    }
+
+    .ShellGBCK {
+        height: 100%;
+        display: block;
+    }
+    
+    .ShellGBCK__left {
+        /* flex: 1; */
+        display: block;
+        height: 70%;
+        overflow-y: auto;
+        padding-top: 0.2em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    .ShellGBCK__right {
+        /* flex: 1; */
+        display: block;
+        height: 30%;
+        background-color: cadetblue;
+    }
+
 }
